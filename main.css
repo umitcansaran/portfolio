@@ -1,3 +1,11 @@
+.main-container,
+.blog-container,
+.projects-container,
+.contact-container {
+  background-color: rgb(231, 228, 228);
+  height: 100vh;
+}
+
 h1.main-title,
 h2.main-title,
 .title {
@@ -10,7 +18,7 @@ h2.main-title,
 }
 
 h2.main-heading {
-  background-color: #90a8b4;
+  background-color: #b5ccd9;
   color: #ffffff;
   text-align: center;
   border-radius: 100% / 0%;
@@ -45,10 +53,6 @@ img.web-dev {
   text-align: center;
 }
 
-a:active {
-  color: darkmagenta;
-}
-
 .icon {
   display: block;
   margin-left: auto;
@@ -66,7 +70,7 @@ a:active {
   padding: 10px;
 }
 
-.contact-container {
+.contact-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -76,7 +80,7 @@ a:active {
   padding: 20px;
 }
 
-.project-container {
+.projects-content {
   display: flex;
   justify-content: center;
 }
@@ -104,9 +108,13 @@ footer {
 }
 
 .entries-heading {
-    background-color: #90a8b4;
-    color: #ffffff;
-    text-align: center;
-    border-radius: 100% / 0%;
-    padding: 3px;
+  background-color: #b5ccd9;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 100% / 0%;
+  padding: 3px;
+}
+
+a {
+  color: rgb(93, 155, 155) !important;
 }
