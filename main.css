@@ -80,7 +80,7 @@ img.web-dev {
 .contact-box {
   text-align: center;
   width: 20%;
-  padding: 40px;
+  padding-top: 20px;
 }
 
 .contact-box .link {
@@ -143,5 +143,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .contact-box {
+    padding-top: 5px;
   }
 }
