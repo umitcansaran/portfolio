@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ümit Cansaran - CV</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary: #2c3e50;
+        --accent: #3498db;
+        --bg: #f4f6f8;
+        --card-bg: #fff;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: var(--bg);
+        margin: 0;
+        padding: 2rem;
+        color: var(--primary);
+      }
+      .container {
+        max-width: 1100px;
+        margin: auto;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .header h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+      .contact,
+      .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 0.9rem;
+      }
+      .contact a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .section {
+        background-color: var(--card-bg);
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      }
+      .section h2 {
+        margin-top: 0;
+        font-size: 1.2rem;
+        border-left: 4px solid var(--accent);
+        padding-left: 0.5rem;
+      }
+      ul {
+        padding-left: 1.2rem;
+        margin: 0.5rem 0;
+      }
+      .two-column {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .two-column > div {
+        flex: 0 1 48%;
+      }
+      .fa {
+        margin-right: 0.5rem;
+        color: var(--accent);
+      }
+      .link-inline {
+        display: inline-block;
+        color: rgb(48, 146, 216);
+      }
+      .main-section {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .left-section,
+      .right-section {
+        flex: 1;
+        min-width: 280px;
+      }
+      /* Optional: make left section a bit wider */
+      .left-section {
+        flex: 1.5;
+      }
+      .right-section {
+        flex: 1;
+      }
+      .hero-section {
+        background-color: #ffffff;
+        padding: 2rem;
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        margin-bottom: 1rem;
+      }
+
+      .profile-photo img {
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .profile-info {
+        flex: 1;
+        min-width: 280px;
+      }
+
+      .profile-info h1 {
+        margin-top: 0;
+        font-size: 2rem;
+        color: #2c3e50;
+      }
+
+      .info-columns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+
+      .left-info,
+      .right-info {
+        flex: 1;
+        min-width: 200px;
+      }
+
+      .left-info p,
+      .right-info p {
+        margin: 0.3rem 0;
+      }
+
+      .right-info i {
+        color: #2c3e50;
+        margin-right: 0.5rem;
+      }
+
+      .right-info a {
+        color: #2c3e50;
+        text-decoration: none;
+      }
+
+      .right-info a:hover {
+        text-decoration: underline;
+      }
+      .fa.fa-phone,
+      .fa.fa-envelope,
+      .fab.fa-github,
+      .fab.fa-github,
+      .fab.fa-linkedin,
+      .fa.fa-location-dot {
+        color: rgb(48, 146, 216);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-section">
+        <div class="profile-photo">
+          <img src="umit-no-background.png" alt="Ümit Cansaran" />
+        </div>
+        <div class="profile-info">
+          <h1>Ümit Cansaran</h1>
+          <div class="info-columns">
+            <div class="left-info">
+              <p><strong>Nationalité</strong> : Belge</p>
+              <p><strong>Permis de séjour</strong> : C</p>
+              <p><strong>Date de naissance</strong> : 13.06.1983</p>
+              <p>
+                <strong>État civil</strong> : Mariée, 2 enfants (garde assurée)
+              </p>
+              <p><strong>Permis de conduire</strong> : B</p>
+            </div>
+            <div class="right-info">
+              <p>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:cansaran.umit@gmail.com"
+                  >cansaran.umit@gmail.com</a
+                >
+              </p>
+              <p>
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/umitcansaran"
+                  >github.com/umitcansaran</a
+                >
+              </p>
+              <p>
+                <i class="fab fa-linkedin"></i>
+                <a href="https://linkedin.com/in/umitcansaran"
+                  >linkedin.com/in/umitcansaran</a
+                >
+              </p>
+              <p><i class="fa fa-phone"></i> +41 76 724 10 11</p>
+              <p>
+                <i class="fa fa-location-dot"></i> Rue de la Patinoire 1, 2504
+                Bienne
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-section">
+        <div class="left-section">
+          <div class="section">
+            <h2>
+              <i class="fa fa-briefcase"></i> Expériences Professionnelles
+            </h2>
+            <ul>
+              <li>
+                <strong>Programme d’Intégration Professionnelle</strong>,
+                Fondation Battenberg, Bienne 10.2024 – 06.2025
+                <ul>
+                  <li>
+                    Soudage de circuits imprimés double face à trous métallisés,
+                    conformément aux normes IPC, pour une entreprise de la
+                    région
+                  </li>
+                  <li>
+                    Lecture de plans électroniques et implantation de composants
+                    sur PCB
+                  </li>
+                  <li>
+                    Montage et soudage de connecteurs multipolaires industriels
+                  </li>
+                  <li>Confection et assemblage précis de câbles complexes</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Développeur Web – Projet Personnel</strong> <br />
+                <a href="http://www.shopping-land.ch" class="link-inline"
+                  >www.shopping-land.ch</a
+                ><br />
+                06.2024 – 01.2025
+                <br />Conception d’une plateforme intuitive dédiée à la gestion
+                d’activités commerciales.
+                <ul>
+                  <li>
+                    Espace vendeur : interface d’administration pour gérer les
+                    produits, les stocks, les succursales et les commandes
+                  </li>
+                  <li>
+                    Expérience client : panier multi-vendeurs, suivi des
+                    commandes, choix entre livraison ou retrait en magasin
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Traducteur / Interprète</strong>, Bruxelles (07.2012 –
+                05.2024)
+                <ul>
+                  <li>Interprétation et traduction technique/médicale</li>
+                  <li>Collaboration Larousse, révision de contenus</li>
+                  <li>Outils : SDL Trados, memoQ, Wordfast</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div class="section">
+            <h2><i class="fa fa-graduation-cap"></i> Formations</h2>
+            <div>
+              <p>
+                <strong>Certificat en Développement Web</strong> <br />
+                Constructor Academy, Zurich <br />
+                09.2019 – 12.2019
+              </p>
+              <p>
+                <strong>Bachelor en Traduction et Interprétation</strong>
+                <br />
+                Université de Yildiz, Istanbul <br />2006 – 2012
+              </p>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2><i class="fa fa-toolbox"></i> Compétences Techniques</h2>
+            <ul>
+              <li>Utilisation de brucelles et de binoculaire</li>
+              <li>Soudure manuelle de précision (composants traversants)</li>
+              <li>Contrôle qualité des soudures</li>
+              <li>Préparation et implantation de composants</li>
+              <li>Lecture de plans et montage de circuits</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2><i class="fa fa-computer"></i> Informatique</h2>
+            <ul>
+              <li>Maîtrise des outils bureautiques (MS Office)</li>
+              <li>À l’aise avec les environnements logiciels</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2><i class="fa fa-heart"></i> Qualités Personnelles</h2>
+            <ul>
+              <li>Autonome et discipliné</li>
+              <li>Persévérant face aux tâches techniques</li>
+              <li>Curieux et rapide à apprendre</li>
+              <li>Polyvalent : travail manuel et outils numériques</li>
+              <li>Esprit d’équipe, respect des procédures</li>
+            </ul>
+          </div>
+
+          <div class="section">
+            <h2><i class="fa fa-language"></i> Langues</h2>
+            <ul>
+              <li>Français : langue maternelle</li>
+              <li>Turc : langue maternelle</li>
+              <li>Anglais : C1</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

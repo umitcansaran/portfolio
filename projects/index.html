@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="/main.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Web Portfolio of Ümit</title>
+  </head>
+  <body>
+    
+    <div class="projects-container">
+      <!-- Navigation bar -->
+      <script id="nav" src="/nav.js"></script>
+      <h2 class="title">Projects</h2>
+
+      <div class="projects-content">
+        <div style="width: 80%">
+          <h5 style="color: rgb(40, 91, 71); text-align: center">
+            Here you can find a web applicaton that I built from scratch..
+          </h5>
+
+          <div style="text-align: center">
+            <a href="https://www.shopping-land.ch" target="”_blank”"
+              >www.shopping-land.ch</a
+            >
+          </div>
+
+          <p style="padding: 10px">
+            It's an e-commerce platform that allows companies with branches to
+            add their stores, create products, manage stocks, and update orders.
+            Customers can purchase from multiple sellers, choose delivery or
+            pickup options, and check status updates.
+          </p>
+
+          <ul>
+            <li>
+              <b>Frontend: </b>React, Redux, React Query, Mapbox GL <br />
+            </li>
+            <li><b>Backend: </b>Django REST API<br /></li>
+            <li><b>Database: </b>PostgreSQL, PgAdmin<br /></li>
+            <li><b>DevOps: </b>Docker, Nginx, Heroku<br /></li>
+            <li><b>AWS: </b>S3, RDS, IAM</li>
+          </ul>
+
+          <h5>Features:</h5>
+
+          <ul>
+            <li>
+              Admin panel where sellers can add stores with specific locations
+              and products to the corresponding store. Product stocks can be
+              viewed and updated for each store individually. It includes a
+              search function to check product availability in stores based on
+              ID, brand, or name.
+            </li>
+            <li>
+              Interactive map where you can view all seller stores and their
+              information. Each store redirects to the seller's page with
+              products, store filtering, and search options.
+            </li>
+            <li>
+              Separate customer and seller profiles can be created and updated.
+            </li>
+            <li>
+              Sellers can change the status of order item(s) to 'sent' or
+              'picked up' depending on the purchase method. The order status
+              changes to 'Completed' automatically.
+            </li>
+            <li>Full featured shopping cart.</li>
+            <li>Product reviews and ratings.</li>
+            <li>Checkout process (shipping, payment method, etc.).</li>
+            <li>PayPal and credit card integration.</li>
+          </ul>
+          <div style="text-align: center">
+            <a
+              href="https://github.com/umitcansaran/shopping-land"
+              target="”_blank”"
+              >Source code</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p class="footer-content">
+          Ümit Cansaran &#169;<span style="color: red">&#160Switzerland</span>&nbsp2024
+        </p>
+      </footer>
+    </div>
+
+    <!-- jQuery first, then Popper.js -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
